@@ -1,0 +1,397 @@
+@font-face {
+  font-family: "Aleo";
+  src: url("../fonts/aleo-regular-webfont.woff2") format("woff2"), url("../fonts/aleo-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* body {
+  margin: 15px;
+  background-color: #fff;
+}
+
+* body .background {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(../img/Header_bg.png);
+  width: 1770px;
+  height: 820px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+* body .background .logo {
+  padding-top: 16%;
+  font-family: "Josefin Sans", Arial, sans-serif;
+  color: #fff;
+}
+
+* body .background .logo p:first-child {
+  font-size: 48px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  line-height: 1em;
+  letter-spacing: 4.8px;
+  padding-bottom: 15px;
+}
+
+* body .background .logo p:last-child {
+  font-size: 22px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1em;
+  letter-spacing: 6.8px;
+}
+
+* body .background .Search {
+  display: flex;
+  justify-content: center;
+}
+
+* body .background .Search input {
+  width: 500px;
+  height: 60px;
+  border: none;
+  background-color: #ffffff;
+}
+
+* body .background .Search ::placeholder {
+  font-family: "Josefin Sans", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: 2.8px;
+  text-align: center;
+  color: #999999;
+}
+
+* body .background .Search button {
+  width: 150px;
+  height: 60px;
+  background-color: #5474fd;
+  border: solid 2px #ffffff;
+  font-family: "Aleo", serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  line-height: 1.86;
+  letter-spacing: 1.4px;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* body .background .Search button img {
+  margin-left: 15px;
+}
+
+* body .background .scroll {
+  font-family: "Josefin Sans", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: 2.8px;
+  color: #fff;
+}
+
+* body .background .menu {
+  width: 1770px;
+  height: 80px;
+  background-color: #5474fd;
+}
+
+* body .background .menu .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+}
+
+* body .background .menu .container p {
+  font-family: "Josefin Sans", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 1.08;
+  letter-spacing: 2.4px;
+  text-align: left;
+  color: #ffffff;
+}
+
+* body .background .menu .container .menu-items .item a {
+  font-family: "Aleo", serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  text-align: left;
+  color: #ffffff;
+  padding-left: 40px;
+}
+
+* body main .Why_choose_us {
+  background-image: url(../img/why_choose_us_bg.png);
+  background-size: cover;
+  width: 1770px;
+  height: 685px;
+}
+
+* body main .Why_choose_us .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+}
+
+* body main .Why_choose_us .container .text h1 {
+  font-family: "Aleo", serif;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 0.72;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 62px;
+}
+
+* body main .Why_choose_us .container .text p {
+  width: 530px;
+  font-family: "Josefin Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: 1.6px;
+  text-align: left;
+  color: #e8e8e8;
+  padding-bottom: 40px;
+}
+
+* body main .Why_choose_us .container .text button {
+  width: 225px;
+  height: 60px;
+  background-color: #5474fd;
+  border: none;
+  font-family: "Aleo", serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  line-height: 1.63;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: #ffffff;
+}
+
+* body main .Why_choose_us .container .img-to-text {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+* body main .Why_choose_us .container .img-to-text img:first-child {
+  position: relative;
+  right: 125px;
+  padding-bottom: 5px;
+}
+
+* body main .infografic {
+  width: 1770px;
+  height: 337px;
+  background-color: #333333;
+}
+
+* body main .infografic .container {
+  height: 337px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+}
+
+* body main .infografic .container svg:first-child {
+  margin: 0 auto;
+}
+
+* body main .infografic .container .Shape_wave .cls-1 {
+  fill: none;
+  stroke: #fff;
+  stroke-linecap: round;
+  stroke-width: 1px;
+  stroke-dasharray: 0.001 5;
+  fill-rule: evenodd;
+  opacity: 0.5;
+}
+
+* body main .infografic .container .icon-wrapper {
+  position: relative;
+  bottom: 70px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Aleo", serif;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 0.72;
+  letter-spacing: normal;
+  text-align: center;
+  color: #e8e8e8;
+}
+
+* body main .infografic .container .icon-wrapper svg {
+  margin-bottom: 30px;
+}
+
+* body main .infografic .container .icon-wrapper .checked .cls-1 {
+  fill: #ff6363;
+  fill-rule: evenodd;
+}
+
+* body main .book_now1 {
+  background-image: url(../img/book_now_1.png);
+  background-size: cover;
+  width: 1770px;
+  height: 700px;
+}
+
+* body main .book_now1 .offer {
+  width: 540px;
+  height: 371px;
+  opacity: 0.9;
+  background-color: #232323;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: "Josefin Sans", Arial, sans-serif;
+  font-weight: normal;
+  color: #e8e8e8;
+  text-align: left;
+  position: relative;
+  left: 330px;
+  top: 30%;
+  padding-left: 30px;
+}
+
+* body main .book_now1 .offer .country {
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: 1.5px;
+}
+
+* body main .book_now1 .offer h2 {
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: normal;
+  line-height: 1.3;
+}
+
+* body main .book_now1 .offer .description {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+}
+
+* body main .book_now1 .offer button {
+  width: 225px;
+  height: 60px;
+  background-color: #5474fd;
+  border: none;
+  font-family: "Aleo", serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  line-height: 1.63;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: #fff;
+  opacity: 1;
+}
+
+* body main .book_now2 {
+  background-image: url(../img/book_now_2.png);
+  background-size: cover;
+  width: 1770px;
+  height: 700px;
+}
+
+* body main .book_now2 .offer {
+  width: 540px;
+  height: 371px;
+  opacity: 0.9;
+  background-color: #232323;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: "Josefin Sans", Arial, sans-serif;
+  font-weight: normal;
+  color: #e8e8e8;
+  text-align: left;
+  position: relative;
+  left: 900px;
+  top: 30%;
+  padding-left: 30px;
+}
+
+* body main .book_now2 .offer .country {
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: 1.5px;
+}
+
+* body main .book_now2 .offer h2 {
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: normal;
+  line-height: 1.3;
+}
+
+* body main .book_now2 .offer .description {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+}
+
+* body main .book_now2 .offer button {
+  width: 225px;
+  height: 60px;
+  background-color: #5474fd;
+  border: none;
+  font-family: "Aleo", serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  line-height: 1.63;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: #fff;
+  opacity: 1;
+}
